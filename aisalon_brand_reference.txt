@@ -1,0 +1,46 @@
+
+Overview
+
+The Ai Salon is a community founded in San Francisco to create conversation and community around the meaning and impact of artificial intelligence. We believe that consideration and input from a vibrant civil society is critical to successfully navigating this transformative moment in human history. We bring together scientists, founders, builders, and the generally curious to consider and shape our future together, ultimately seeking to support participatory development of the technology that will impact us all.
+
+Our ambitions extend beyond community development, however. Not only do we believe that because AI affects everyone, it should be affected by everyone. This requires novel approaches to participatory development of technology. We see a future where our distributed values and perspectives influence the direction of AI, either directly through participatory alignment and open-source development, or indirectly through evolving and disseminating influential ideas that will influence the future of AI. We are inspired by The Collective Intelligence Project and AI & Democracy Foundation’s visions of human-centered governance and steering of AI systems.
+Our Events
+Central to the Ai Salon are our in-person events. We have hosted 50+ events, bringing over 1000 people together. We distinguish ourselves from many other events by our focus, values and format.
+Focus
+In early 2023, it quickly became obvious that almost any aspect of the world may be impacted by the emergence of AI, and that people wanted to talk about it! Thus our themes vary widely. A full list of our events can be found on our calendar; a sample of themes we have discussed include:
+
+Industry impacts: Space Industries, Healthcare, Neurotechnology
+Human Impacts: Relationships, Personhood, Religion
+Sci-fi Futures: Augmentation, Singularity Eschaton
+AI Safety: Trustworthy AI Futures, Guardrails, Government
+
+To further the reach and influence of these salons, we also are committed to disseminating the insights and questions that arise during our discussions. We use AI to distill the discussions into various forms, including our substack: The Ai Salon Archive, and an evolving knowledge graph (WIP). We are particularly excited about this direction as the opportunities grow along with the technology. 
+Values
+We believe in equity of voice, which is reflected in our focus on full participation by our attendees The values we espouse at our salons are:
+
+Give space and take space. We take the time to make our point and we actively listen to others. In doing so, we foster respect for one another and for the issues at hand.
+Seek The Truth. AI is a transformative and fast moving technology. We strive to perpetuate the truth by engaging with curiosity and rigor to ensure points are grounded in facts.
+Encourage Exploration. AI will take us in many directions, which our conversations will reflect. We encourage the exploration of all angles via free flowing dialogue.
+Find Strength in Community. We’re not just salon participants - we’re an active community. We believe in the power of coming together to support one another and have fun while doing so!
+Promote Positive Impact. We find ways to extend the reach of our ideas and convert them into positive projects & partnerships to promote the participatory development of AI.
+Event Format
+Our core events are our salons, which are generally 10-20 people engaged in a facilitated, single-threaded conversation. Besides a general theme, no other guidance is given. There is no panel and no speakers. 
+
+Given this format, the selection of participants is critical to have an engaging and thoughtful conversation bringing together diverse perspectives. We host more general salons open to a wider audience of AI enthusiasts and “Expert Series” for professionals on a particular theme. 
+
+Our facilitation is critical, as it is responsible for nudging the conversation in more exploratory directions or directing it to focus more deeply on a particular topic. While the Ai Salon as a whole doesn’t forward particular theses with regards to AI’s development, we do have a focus on participation and interesting ideas, and our facilitation approach supports this.
+
+While our salons are our bread-and-butter, larger events are helpful as a top-of-funnel for curious people who are interested in the idea of these conversations. To this end we host larger symposia of roughly 100 people. In this setting we ultimately split people into groups of ~10 so that they can benefit from the depth and intimacy of the single-threaded conversation before returning to the larger group.
+
+Global Reach
+While we started in San Francisco, the Ai Salon has expanded its reach. We now have chapters in various cities worldwide, including London and Bangalore. This global network allows us to bring diverse perspectives from different cultures and regions into our conversations about AI's impact and future.
+Join us!
+The future of AI is being shaped now, and your voice matters. Here's how you can get involved with the Ai Salon:
+Attend an Event (https://lu.ma/Ai-salon): Check our calendar for upcoming salons and symposia in your area.
+Begin hosting salons (https://docs.google.com/forms/d/e/1FAIpQLScOHdporrmJFLXZ1RvuRAH7At5_O9HcD1PUI4ObO0E4dexUZw/viewform?usp=sf_link): Let us know if you’d like to host salons! We help new hosts and new chapters get set up.
+Subscribe to Our Newsletter (https://aisalon.substack.com/publish/subscribers): Stay updated with the latest insights from our discussions by subscribing to The Ai Salon Archive.
+Follow Us on Social Media: Join our online community on Twitter and LinkedIn.
+
+Together, we can ensure that the development of AI is guided by diverse perspectives and thoughtful consideration. Join us in shaping the future of artificial intelligence!
+Contact us for more information or to get involved.
+
