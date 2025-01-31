@@ -61,7 +61,7 @@
                         <!--The Logo that is shown on the sticky Navigation Bar-->
                         <img src="images/logo-2.png" id="navigation-logo" alt="Ai Salon"/>
                         <!--End of Navigation Logo-->
-                    </div>
+            </div>
                     <!--End of Logo-->
 
                     <aside>
@@ -70,7 +70,7 @@
                             <li>
                                 <a target="_blank" title="Twitter" href="http://www.twitter.com/aisalon">
                                     <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
-                                </a>
+                </a>
                             </li>
                             <li>
                                 <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/company/ai-salon">
@@ -87,8 +87,8 @@
                     </aside>
 
                     <!--Main Navigation-->
-                    <nav id="nav-main">
-                        <ul>
+            <nav id="nav-main">
+                <ul>
                             <li>
                                 <a href="#banner">Home</a>
                             </li>
@@ -99,38 +99,41 @@
                                 <a href="#events">Events</a>
                             </li>
                             <li>
-                                <a href="#values">Values</a>
-                            </li>
-                            <li>
                                 <a href="#join">Join Us</a>
                             </li>
                             <li>
                                 <a href="#chapters">Global Chapters</a>
                             </li>
-                        </ul>
-                    </nav>
+                            <li>
+                                <a href="#team">Team</a>
+                            </li>
+                            <li>
+                                <a href="#values">Values</a>
+                            </li>
+                </ul>
+            </nav>
                     <!--End of Main Navigation-->
 
                     <div id="nav-trigger"><span></span></div>
-                    <nav id="nav-mobile"></nav>
+            <nav id="nav-mobile"></nav>
 
-                </div>
+        </div>
             </div>
         </div><!--End of Header-->
 
-        <!--Banner Content-->
-        <div id="banner-content" class="row clearfix">
-            <div class="col-38">
-                <div class="section-heading">
-                    <h1>Shape the Future of AI Together</h1>
-                    <h2>Join a vibrant community of thinkers and builders exploring the meaning and impact of artificial intelligence through meaningful conversation and participatory development.</h2>
-                </div>
-
-                <!--Call to Action-->
-                <a href="https://lu.ma/Ai-salon" class="button">JOIN A SALON</a>
-                <!--End Call to Action-->
+    <!--Banner Content-->
+    <div id="banner-content" class="row clearfix">
+        <div class="col-38">
+            <div class="section-heading">
+                <h1>Shape the Future of AI Together</h1>
+                <h2>Join a vibrant community of thinkers and builders exploring the meaning and impact of artificial intelligence through meaningful conversation and participatory development.</h2>
             </div>
-        </div><!--End of Row-->
+
+            <!--Call to Action-->
+            <a href="https://lu.ma/Ai-salon" class="button">JOIN A SALON</a>
+            <!--End Call to Action-->
+        </div>
+    </div><!--End of Row-->
     </header>
 
     <!--Main Content Area-->
@@ -213,69 +216,6 @@
         </section>
         <!--End of Introduction-->
 
-        <!--Calendar Section-->
-        <section id="calendar" class="scrollto clearfix">
-            <div class="row clearfix">
-                <div class="col-3">
-                    <div class="section-heading">
-                        <h3>UPCOMING EVENTS</h3>
-                        <h2 class="section-title">Join Our Next Salon</h2>
-                        <p class="section-subtitle">Browse and register for our upcoming events. From intimate salons to larger symposia, there's always an opportunity to join the conversation.</p>
-                    </div>
-                </div>
-
-                <div class="col-2-3">
-                    <iframe
-                        src="https://lu.ma/embed/calendar/cal-XHZLGpY8HDOAYm3/events"
-                        width="100%"
-                        height="450"
-                        frameborder="0"
-                        style="border: 1px solid #bfcbda88; border-radius: 4px;"
-                        allowfullscreen=""
-                        aria-hidden="false"
-                        tabindex="0"
-                    ></iframe>
-                </div>
-            </div>
-        </section>
-        <!--End of Calendar Section-->
-
-        <!--Newsletter Section-->
-        <section id="newsletter" class="secondary-color scrollto clearfix">
-            <div class="row clearfix">
-                <div class="col-3">
-                    <div class="section-heading">
-                        <h3>LATEST INSIGHTS</h3>
-                        <h2 class="section-title">From Our Archive</h2>
-                        <p class="section-subtitle">Stay updated with the latest insights and discussions from our salons through our Substack newsletter.</p>
-                    </div>
-                </div>
-
-                <div class="col-2-3">
-                    <div id="substack-feed-embed"></div>
-                    <script>
-                        window.SubstackFeedWidget = {
-                            substackUrl: "aisalon.substack.com",
-                            posts: 3,
-                            filter: "top",
-                            layout: "right"
-                        };
-                    </script>
-                    <script src="https://substackapi.com/embeds/feed.js" async></script>
-                </div>
-            </div>
-        </section>
-        <!--End of Newsletter Section-->
-        
-        <!-- Cross Banner Section -->
-        <section class="secondary-color cross-banner">
-            <div class="row no-padding-top no-padding-bottom">
-                <img src="images/banner-images/cross-banner.png" alt="AI Salon Cross Banner" style="width: 100%; height: auto;">
-            </div>
-        </section>
-
-
-
         <!--Events Section-->
         <section id="events" class="scrollto clearfix">
             <div class="row clearfix">
@@ -329,55 +269,60 @@
                         </div>
                     </div>
                 </div>
-
+            <div class="col-2-3" style="margin: 0 auto; float: none;">
+                <div class="section-heading">
+                    <h3>OUR CALENDAR</h3>
+                </div>
+                <iframe
+                    src="https://lu.ma/embed/calendar/cal-XHZLGpY8HDOAYm3/events"
+                    width="100%"
+                    height="450"
+                    frameborder="0"
+                    style="border: 1px solid #bfcbda88; border-radius: 4px;"
+                    allowfullscreen=""
+                    aria-hidden="false"
+                    tabindex="0"
+                ></iframe>
             </div>
+            </div>
+
         </section>
         <!--End of Events Section-->
 
-        <!--Join Us Section-->
-        <section id="join" class="secondary-color text-center scrollto clearfix">
+        <!--Newsletter Section-->
+        <section id="newsletter" class="secondary-color scrollto clearfix">
             <div class="row clearfix">
-                <div class="section-heading">
-                    <h3>GET INVOLVED</h3>
-                    <h2 class="section-title">Join Our Community</h2>
-                    <p class="section-subtitle">The future of AI is being shaped now, and your voice matters. Here's how you can get involved with the Ai Salon.</p>
+                <div class="col-3">
+                    <div class="section-heading">
+                        <h3>LATEST INSIGHTS</h3>
+                        <h2 class="section-title">From Our Archive</h2>
+                        <p class="section-subtitle">Stay updated with the latest insights and discussions from our salons through our Substack newsletter.</p>
+                    </div>
+                    <a href="https://aisalon.substack.com/" class="button">SUBSCRIBE</a>
                 </div>
 
-                <div class="col-3">
-                    <div class="info-block-content">
-                        <h3>Attend Events</h3>
-                        <div class="info-content">
-                            <i class="fa fa-calendar-check-o fa-3x"></i>
-                        </div>
-                        <p>Check our calendar for upcoming salons and symposia in your area.</p>
-                        <a href="https://lu.ma/Ai-salon" class="button">VIEW CALENDAR</a>
-                    </div>
-                </div>
-
-                <div class="col-3">
-                    <div class="info-block-content">
-                        <h3>Host Salons</h3>
-                        <div class="info-content">
-                            <i class="fa fa-home fa-3x"></i>
-                        </div>
-                        <p>Start a new chapter or host salons in your area. We'll help you get set up!</p>
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScOHdporrmJFLXZ1RvuRAH7At5_O9HcD1PUI4ObO0E4dexUZw/viewform?usp=sf_link" class="button">BECOME A HOST</a>
-                    </div>
-                </div>
-
-                <div class="col-3">
-                    <div class="info-block-content">
-                        <h3>Stay Updated</h3>
-                        <div class="info-content">
-                            <i class="fa fa-envelope-o fa-3x"></i>
-                        </div>
-                        <p>Subscribe to our newsletter for the latest insights from our discussions.</p>
-                        <a href="https://aisalon.substack.com" class="button">SUBSCRIBE</a>
-                    </div>
+                <div class="col-2-3">
+                    <div id="substack-feed-embed"></div>
+                    <script>
+                        window.SubstackFeedWidget = {
+                            substackUrl: "aisalon.substack.com",
+                            posts: 3,
+                            filter: "top",
+                            layout: "right"
+                        };
+                    </script>
+                    <script src="https://substackapi.com/embeds/feed.js" async></script>
                 </div>
             </div>
         </section>
-        <!--End of Join Us Section-->
+        <!--End of Newsletter Section-->
+        
+        <!-- Cross Banner Section -->
+        <section class="secondary-color cross-banner">
+            <div class="row no-padding-top no-padding-bottom">
+                <img src="images/banner-images/cross-banner.png" alt="AI Salon Cross Banner" style="width: 100%; height: auto;">
+            </div>
+        </section>
 
         <!--Global Chapters-->
         <section id="chapters" class="scrollto clearfix">
@@ -391,51 +336,49 @@
                 </div>
 
                 <div class="col-2-3">
-                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="icon">
-                            <i class="fa fa-map-marker fa-2x"></i>
-                        </div>
-                        <div class="icon-block-description">
-                            <h4>San Francisco</h4>
-                            <p>Our founding chapter, hosting regular salons and symposia in the heart of tech innovation.</p>
-                        </div>
+                    <div class="chapters-grid">
+                        <div class="chapter-location wow fadeInUp" data-wow-delay="0.1s">San Francisco</div>
+                        <div class="chapter-location wow fadeInUp" data-wow-delay="0.2s">London</div>
+                        <div class="chapter-location wow fadeInUp" data-wow-delay="0.3s">Bangalore</div>
+                        <div class="chapter-location wow fadeInUp" data-wow-delay="0.4s">Lagos</div>
+                        <div class="chapter-location wow fadeInUp" data-wow-delay="0.5s">Vancouver</div>
+                        <div class="chapter-location wow fadeInUp" data-wow-delay="0.6s">Berlin</div>
                     </div>
-
-                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="icon">
-                            <i class="fa fa-map-marker fa-2x"></i>
-                        </div>
-                        <div class="icon-block-description">
-                            <h4>London</h4>
-                            <p>Bringing European perspectives and hosting vibrant discussions in the UK's capital.</p>
-                        </div>
+                    
+                    <div class="start-chapter wow fadeInUp" data-wow-delay="0.7s">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScOHdporrmJFLXZ1RvuRAH7At5_O9HcD1PUI4ObO0E4dexUZw/viewform?usp=sf_link" class="start-chapter-link">
+                            <i class="fa fa-plus-circle"></i>
+                            <span>Start a Chapter</span>
+                        </a>
                     </div>
-
-                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="icon">
-                            <i class="fa fa-map-marker fa-2x"></i>
-                        </div>
-                        <div class="icon-block-description">
-                            <h4>Bangalore</h4>
-                            <p>Our Indian chapter exploring AI's impact from a South Asian perspective.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-2 icon-block icon-top wow fadeInUp" data-wow-delay="0.5s">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScOHdporrmJFLXZ1RvuRAH7At5_O9HcD1PUI4ObO0E4dexUZw/viewform?usp=sf_link" style="color: inherit; text-decoration: none;">
-                            <div class="icon">
-                                <i class="fa fa-plus-circle fa-2x"></i>
-                            </div>
-                            <div class="icon-block-description">
-                                <h4>Start a Chapter</h4>
-                                <p>Interested in bringing Ai Salon to your city? Get in touch to start a new chapter!</p>
-                            </div>
+                    <div class="start-chapter wow fadeInUp" data-wow-delay="0.7s">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScOHdporrmJFLXZ1RvuRAH7At5_O9HcD1PUI4ObO0E4dexUZw/viewform?usp=sf_link" class="start-chapter-link">
+                            <i class="fa fa-plus-circle"></i>
+                            <span>Become a Host in an Existing Chapter</span>
                         </a>
                     </div>
                 </div>
             </div>
         </section>
         <!--End of Global Chapters-->
+
+        <!--Team Section-->
+        <section id="team" class="scrollto clearfix">
+            <div class="row clearfix">
+                <div class="section-heading">
+                    <h3>OUR TEAM</h3>
+                    <h2 class="section-title">The People Behind the Ai Salon</h2>
+                </div>
+
+                <div class="team-container">
+                    <!-- Team members will be dynamically inserted here -->
+                </div>
+            </div>
+        </section>
+        <!--End of Team Section-->
+
+
+
         <!--Values Section-->
         <section id="values" class="secondary-color text-center scrollto clearfix">
             <div class="row clearfix">
@@ -521,11 +464,8 @@
             </div>
         </section>
         <!--End of Values Section-->
-
     </main>
     <!--End Main Content Area-->
-
-
     <!--Footer-->
     <footer id="landing-footer" class="clearfix">
         <div class="row clearfix">
@@ -569,6 +509,7 @@
 <script src="js/jquery.waypoints.min.js"></script>
 <script src="js/images-loaded.min.js"></script>
 <script src="js/lightbox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
 <script src="js/site.js"></script>
 
 

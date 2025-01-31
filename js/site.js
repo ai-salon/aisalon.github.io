@@ -45,6 +45,9 @@ $(document).ready(function () {
 		}
 	});
 
+	// Load team members
+	loadTeamMembers();
+
 });
 
 
@@ -65,3 +68,43 @@ $(window).load(function () { // makes sure the whole site is loaded
 	}
 
 });
+
+// Function to generate team member HTML
+function generateTeamMember(member, delay) {
+	return `
+		<!--Team Member-->
+		<div class="col-3 team-member wow fadeInUp" data-wow-delay="${delay}s">
+			<div class="team-member-card">
+				<div class="team-member-image">
+					<img src="${member.profile_image}" alt="${member.name}">
+				</div>
+				<div class="team-member-info">
+					<h4>${member.name}</h4>
+					<h5>${member.role}</h5>
+					${member.description ? `<p>${member.description}</p>` : '<p></p>'}
+					<a href="${member.linkedin}" target="_blank" class="linkedin-link">
+						<i class="fa fa-linkedin"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--End Team Member-->
+	`;
+}
+
+// Function to load and render team members
+function loadTeamMembers() {
+	fetch('_data/team.yml')
+		.then(response => response.text())
+		.then(yamlText => {
+			const teamData = jsyaml.load(yamlText);
+			const teamContainer = document.querySelector('.team-container');
+			
+			if (teamContainer && teamData.team_members) {
+				teamContainer.innerHTML = teamData.team_members
+					.map((member, index) => generateTeamMember(member, (index * 0.2).toFixed(1)))
+					.join('');
+			}
+		})
+		.catch(error => console.error('Error loading team members:', error));
+}

@@ -1,0 +1,60 @@
+team_members:
+  - name: Ian Eisenberg
+    role: Founder
+    profile_image: images/people-images/ian_eisenberg.jpeg
+    description: Ian focuses on system-level interventions to make AI more effective and beneficial. Besides the salon, he leads Credo AI's AI Governance Research team. In a past life he was a cognitive neuroscientist and has been a researcher at Stanford, the NIH, Columbia, and Brown.
+    linkedin: https://www.linkedin.com/in/ian-eisenberg-aa17b594/
+    
+  - name: Cecilia Callas
+    role: Leadership
+    profile_image: images/people-images/cecilia_callas.jpeg
+    description: Cecilia Callas is an AI Ethicist, Responsible AI expert and writer based in San Francisco, CA. Her core focus is empowering the public with content, events and resources that increase knowledge about the necessity of safe, ethical and responsible AI. 
+    linkedin: https://www.linkedin.com/in/ceciliacallas/
+
+  - name: Sharat Satyanarayana
+    role: Bangalore Chapter Lead
+    profile_image: images/people-images/sharat_satyanarayana.jpeg
+    description: 
+    linkedin: https://www.linkedin.com/in/sharats/
+
+  - name: Mikhail Klassen
+    role: Vancouver Chapter Lead
+    profile_image: images/people-images/mikhail_klassen.jpeg
+    description: 
+    linkedin: https://www.linkedin.com/in/mikhailklassen/
+
+  - name: Francis Sani
+    role: Lagos Chapter Lead
+    profile_image: images/people-images/francis_sani.jpeg
+    description: 
+    linkedin: https://www.linkedin.com/in/francis-sani-o-83534ba9/
+
+  - name: Apurba Kundu
+    role: Berlin Chapter Lead
+    profile_image: images/people-images/apurba_kundu.jpeg
+    description: Heading our London chapter initiatives and fostering connections across the European AI community. Expert in AI ethics and governance.
+    linkedin: https://www.linkedin.com/in/apurba-kundu-3a445a26/
+
+  - name: Medha Bankhwal
+    role: 'SF Chapter Host: Trustworthy AI Futures'
+    profile_image: images/people-images/medha_bankhwal.jpeg
+    description: 
+    linkedin: https://www.linkedin.com/in/medhabankhwal/
+
+  - name: Banu Kellner
+    role: SF Chapter Host
+    profile_image: images/people-images/banu_kellner.jpeg
+    description: 
+    linkedin: https://www.linkedin.com/in/banuhantal/
+
+  - name: Anirudh Iyer
+    role: Bangalore Chapter Host 
+    profile_image: images/people-images/anirudh_iyer.jpeg
+    description: Leading community engagement and event facilitation for our global chapters. Passionate about creating meaningful dialogue around AI's societal impact.
+    linkedin: https://www.linkedin.com/in/anirudh-i/
+
+
+
+
+
+
