@@ -94,7 +94,7 @@ function generateTeamMember(member, delay) {
 
 // Function to load and render team members
 function loadTeamMembers() {
-	fetch('_data/team.yml')
+	fetch('data/team.yml')
 		.then(response => response.text())
 		.then(yamlText => {
 			const teamData = jsyaml.load(yamlText);
