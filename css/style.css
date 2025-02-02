@@ -296,7 +296,7 @@ section {
 }
 
 .col-38 {
-    width: 38.2%;
+    width: 45%;
     padding-top: 150px;
 }
 
@@ -799,9 +799,6 @@ h6 {
     z-index: 1000;
 }
 
-#banner h1 {
-    padding-top: 5%;
-}
 
 #banner .section-heading:before {
     content: "";
@@ -810,7 +807,6 @@ h6 {
     height: 5px;
     margin-top: 30px;
 }
-
 
 
 /*------------------------------------------------------------------------------------------*/
@@ -2215,10 +2211,6 @@ blockquote {
         font-size: 38px;
     }
 
-    #banner h1 {
-        font-size: 48px;
-    }
-
     /* Hide Elements */
     a#scrollUp {
         display: none !important;
@@ -2385,7 +2377,6 @@ blockquote {
     color: inherit;
     text-decoration: none;
     transition: all 0.3s ease-out;
-    display: block;
 }
 
 .icon-block a:hover {
@@ -2404,6 +2395,16 @@ blockquote {
 .cross-banner img {
     display: block;
     margin: 0 auto;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cta-buttons .button {
+    margin: 35px 0 0 0;
 }
 
 

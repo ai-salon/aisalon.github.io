@@ -249,15 +249,17 @@ body {
 
 #banner h1 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:62px;
+    font-size:55px;
     line-height:60px;
-    font-weight:800;
+    font-weight:650;
     color: var(--text-color);
+    padding-top: 5%;
+
 }
 
 #banner h2 {
     font-family: 'Open Sans', sans-serif, Arial, Helvetica;
-    font-size:18px;
+    font-size:24px;
     font-weight:300;
     color: var(--text-color);
 }
@@ -501,11 +503,15 @@ h6 {
 .flip-card-front {
     z-index: 2;
     background-color: var(--accent-color);
+    background-image: url('../images/value_card.png');
+    background-size: cover;
 }
 
 .flip-card-back {
     transform: rotateY(180deg);
     background-color: var(--white);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.8)), url('../images/value_card.png');
+    background-size: cover;
     text-align: left;
     justify-content: flex-start;
     padding-left: 20px;
@@ -513,11 +519,12 @@ h6 {
 }
 
 .flip-card-front h3 {
-    margin: 0;
     color: var(--white);
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.2;
     text-transform: uppercase;
+    text-align: left;
+    align-self: flex-start;
 }
 
 .flip-card-back p {
