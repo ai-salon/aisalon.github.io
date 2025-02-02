@@ -69,6 +69,11 @@ a:hover, #header.nav-solid nav a:hover {
     color: var(--text-color);
 }
 
+#header nav a:hover {
+    opacity: 0.8;
+    color: var(--primary-color);
+}
+
 
 /* Navigation Colors when the Navigation is sticky and solid */ 
 
