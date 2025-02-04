@@ -57,23 +57,51 @@
 
                     <!--Logo-->
                     <div id="logo">
-
-                        <!--The Logo that is shown on the sticky Navigation Bar-->
-                        <img src="images/logo-2.png" id="navigation-logo" alt="Ai Salon"/>
-                        <!--End of Navigation Logo-->
-            </div>
+                        <a href="#banner">
+                            <img src="images/logo-2.png" id="navigation-logo" alt="Ai Salon"/>
+                        </a>
+                    </div>
                     <!--End of Logo-->
 
-                    <aside>
-                        <!--Social Icons in Header-->
+                    <!--Main Navigation-->
+                    <nav id="nav-main">
+                        <ul>
+                            <li class="dropdown">
+                                <a href="#about">About <i class="fa fa-angle-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#values">Values</a></li>
+                                    <li><a href="#chapters">Chapters</a></li>
+                                    <li><a href="#team">Team</a></li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">   
+                                <a href="#events">Our Work <i class="fa fa-angle-down"></i></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#events">Events</a></li>
+                                    <li><a href="#insights">Insights</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!--End of Main Navigation-->
+
+                    <!--Navigation Buttons-->
+                    <div class="nav-buttons">
+                        <a href="https://lu.ma/Ai-salon" class="nav-button">Join an event</a>
+                        <a href="https://aisalon.substack.com" class="nav-button">Explore our insights</a>
+                    </div>
+                    <!--End of Navigation Buttons-->
+
+                    <!--Social Icons in Header-->
+                    <div class="social-icons-wrapper">
                         <ul class="social-icons">
                             <li>
-                                <a target="_blank" title="Twitter" href="http://www.twitter.com/aisalon">
+                                <a target="_blank" title="Twitter" href="https://x.com/TheAISalonSF">
                                     <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
-                </a>
+                                </a>
                             </li>
                             <li>
-                                <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/company/ai-salon">
+                                <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/company/the-ai-salon">
                                     <i class="fa fa-linkedin fa-1x"></i><span>LinkedIn</span>
                                 </a>
                             </li>
@@ -83,41 +111,16 @@
                                 </a>
                             </li>
                         </ul>
-                        <!--End of Social Icons in Header-->
-                    </aside>
+                    </div>
+                    <!--End of Social Icons in Header-->
 
-                    <!--Main Navigation-->
-            <nav id="nav-main">
-                <ul>
-                            <li>
-                                <a href="#banner">Home</a>
-                            </li>
-                            <li>
-                                <a href="#about">About</a>
-                            </li>
-                            <li>
-                                <a href="#values">Values</a>
-                            </li>
-                            <li>
-                                <a href="#events">Events</a>
-                            </li>
-                            <li>
-                                <a href="#chapters">Global Chapters</a>
-                            </li>
-                            <li>
-                                <a href="#insights">Insights</a>
-                            </li>
-                            <li>
-                                <a href="#team">Team</a>
-                            </li>
-                </ul>
-            </nav>
-                    <!--End of Main Navigation-->
+                    <div id="nav-mobile-header">
+                        <div id="nav-trigger"><span></span></div>
+                        <img src="images/logo.png" alt="Ai Salon" class="mobile-logo">
+                    </div>
+                    <nav id="nav-mobile"></nav>
 
-                    <div id="nav-trigger"><span></span></div>
-            <nav id="nav-mobile"></nav>
-
-        </div>
+                </div>
             </div>
         </div><!--End of Header-->
 
@@ -131,7 +134,7 @@
 
             <!--Call to Action-->
             <div class="cta-buttons">
-                <a href="https://lu.ma/Ai-salon" class="button">JOIN A SALON</a>
+                <a href="https://lu.ma/Ai-salon" class="button">JOIN AN EVENT</a>
                 <a href="https://aisalon.substack.com" class="button">EXPLORE OUR INSIGHTS</a>
             </div>
             <!--End Call to Action-->
@@ -305,6 +308,38 @@
         </section>
         <!--End of Values Section-->
 
+        <!--Global Chapters-->
+        <section id="chapters" class="scrollto clearfix">
+            <div class="row clearfix">
+                <div class="col-2">
+                    <div class="section-heading">
+                        <h2 class="section-title">The Ai Salon around the world</h2>
+                        <p class="section-subtitle">We believe the best AI solutions emerge when insights flow freely across geographic and cultural boundaries. That's why the Ai Salon has expanded beyond our founding city of San Francisco to a global community across city cities (and growing!)</p>
+                    </div>
+                </div>
+
+                <div class="col-2">
+                    <div class="chapters-content">
+                        <div class="chapter-actions">
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScOHdporrmJFLXZ1RvuRAH7At5_O9HcD1PUI4ObO0E4dexUZw/viewform" class="chapter-button">
+                                <i class="fa fa-plus-circle"></i> Start a Chapter
+                            </a>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScOHdporrmJFLXZ1RvuRAH7At5_O9HcD1PUI4ObO0E4dexUZw/viewform" class="chapter-button">
+                                <i class="fa fa-plus-circle"></i> Become a Host in an Existing Chapter
+                            </a>
+                        </div>
+                        <div class="existing-chapters">
+                            <h3>EXISTING CHAPTERS:</h3>
+                            <div class="chapter-list">
+                                SAN FRANCISCO | LONDON | BANGALORE | LAGOS | VANCOUVER | BERLIN
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--End of Global Chapters-->
+        
         <!--Events Section-->
         <section id="events" class="scrollto clearfix">
             <div class="row clearfix">
@@ -363,59 +398,20 @@
                     <h3>OUR CALENDAR</h3>
                 </div>
                 <iframe
-                    src="https://lu.ma/embed/calendar/cal-XHZLGpY8HDOAYm3/events"
-                    width="100%"
-                    height="450"
-                    frameborder="0"
-                    style="border: 1px solid #bfcbda88; border-radius: 4px;"
-                    allowfullscreen=""
-                    aria-hidden="false"
-                    tabindex="0"
+                src="https://lu.ma/embed/calendar/cal-XHZLGpY8HDOAYm3/events?lt=light"
+                width=100%
+                height="450"
+                frameborder="0"
+                style="border: 1px solid #bfcbda88; border-radius: 4px;"
+                allowfullscreen=""
+                aria-hidden="false"
+                tabindex="0"
                 ></iframe>
             </div>
             </div>
 
         </section>
         <!--End of Events Section-->
-
-        <!--Global Chapters-->
-        <section id="chapters" class="scrollto clearfix">
-            <div class="row clearfix">
-                <div class="col-3">
-                    <div class="section-heading">
-                        <h3>GLOBAL REACH</h3>
-                        <h2 class="section-title">The Ai Salon around the world</h2>
-                        <p class="section-subtitle">We believe the best AI solutions emerge when insights flow freely across geographic and cultural boundaries. That's why the Ai Salon has expanded beyond our founding city of San Francisco to a global community across city cities (and growing!)</p>
-                    </div>
-                </div>
-
-                <div class="col-2-3">
-                    <div class="chapters-grid">
-                        <div class="chapter-location wow fadeInUp" data-wow-delay="0.1s">San Francisco</div>
-                        <div class="chapter-location wow fadeInUp" data-wow-delay="0.2s">London</div>
-                        <div class="chapter-location wow fadeInUp" data-wow-delay="0.3s">Bangalore</div>
-                        <div class="chapter-location wow fadeInUp" data-wow-delay="0.4s">Lagos</div>
-                        <div class="chapter-location wow fadeInUp" data-wow-delay="0.5s">Vancouver</div>
-                        <div class="chapter-location wow fadeInUp" data-wow-delay="0.6s">Berlin</div>
-                    </div>
-                    
-                    <div class="start-chapter wow fadeInUp" data-wow-delay="0.7s">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScOHdporrmJFLXZ1RvuRAH7At5_O9HcD1PUI4ObO0E4dexUZw/viewform?usp=sf_link" class="start-chapter-link">
-                            <i class="fa fa-plus-circle"></i>
-                            <span>Start a Chapter</span>
-                        </a>
-                    </div>
-                    <div class="start-chapter wow fadeInUp" data-wow-delay="0.7s">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScOHdporrmJFLXZ1RvuRAH7At5_O9HcD1PUI4ObO0E4dexUZw/viewform?usp=sf_link" class="start-chapter-link">
-                            <i class="fa fa-plus-circle"></i>
-                            <span>Become a Host in an Existing Chapter</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--End of Global Chapters-->
-
 
         <!--Insights Section-->
         <section id="insights" class="secondary-color scrollto clearfix">
@@ -434,7 +430,7 @@
                     <script>
                         window.SubstackFeedWidget = {
                             substackUrl: "aisalon.substack.com",
-                            posts: 3,
+                            posts: 4,
                             filter: "top",
                             layout: "right"
                         };
@@ -475,25 +471,6 @@
 
             <p id="copyright" class="col-2">© 2025 Ai Salon. All rights reserved.</p>
 
-            <!--Social Icons in Footer-->
-            <ul class="col-2 social-icons">
-                <li>
-                    <a target="_blank" title="Twitter" href="http://www.twitter.com/TheAISalonSF">
-                        <i class="fa fa-twitter fa-1x"></i><span>Twitter</span>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" title="LinkedIn" href="https://www.linkedin.com/company/the-ai-salon/">
-                        <i class="fa fa-linkedin fa-1x"></i><span>LinkedIn</span>
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" title="Substack" href="https://aisalon.substack.com">
-                        <i class="fa fa-newspaper-o fa-1x"></i><span>Substack</span>
-                    </a>
-                </li>
-            </ul>
-            <!--End of Social Icons in Footer-->
         </div>
     </footer>
     <!--End of Footer-->

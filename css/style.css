@@ -53,10 +53,6 @@ p {
     line-height: 25px;
 }
 
-.row img {
-    height: auto;
-    max-width: 100%;
-}
 
 a {
     text-decoration: none;
@@ -2401,6 +2397,13 @@ blockquote {
 
 .cta-buttons .button {
     margin: 35px 0 0 0;
+}
+
+@media (max-width: 991px) {
+    .col-38 {
+        width: 100%;
+        padding-top: 0;
+    }
 }
 
 

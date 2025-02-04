@@ -14,13 +14,7 @@ $(document).ready(function () {
 	/*Responsive Navigation*/
 	$("#nav-mobile").html($("#nav-main").html());
 	$("#nav-trigger span").on("click",function() {
-		if ($("nav#nav-mobile ul").hasClass("expanded")) {
-			$("nav#nav-mobile ul.expanded").removeClass("expanded").slideUp(250);
-			$(this).removeClass("open");
-		} else {
-			$("nav#nav-mobile ul").addClass("expanded").slideDown(250);
-			$(this).addClass("open");
-		}
+		window.location.href = 'mobile-menu.html';
 	});
 
 	$("#nav-mobile").html($("#nav-main").html());
@@ -47,6 +41,19 @@ $(document).ready(function () {
 
 	// Load team members
 	loadTeamMembers();
+
+	// Add mobile dropdown functionality
+	$(document).ready(function() {
+		// Handle mobile dropdown toggles
+		$('#nav-mobile').on('click', '.has-dropdown > a', function(e) {
+			e.preventDefault();
+			$(this).parent().toggleClass('open');
+		});
+
+		// Clone navigation buttons to mobile menu
+		const $navButtons = $('.nav-buttons').clone();
+		$('#nav-mobile ul').append($navButtons);
+	});
 
 });
 
