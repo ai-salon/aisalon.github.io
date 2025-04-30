@@ -30,10 +30,22 @@ team_members:
     linkedin: https://www.linkedin.com/in/francis-sani-o-83534ba9/
 
   - name: Apurba Kundu
-    role: Berlin Chapter Lead
+    role: Berlin Chapter Co-Lead
     profile_image: images/people-images/apurba_kundu.jpeg
-    description: 
+    description: Apurba is a tech lawyer by training and currently a public policy master's student navigating trustworthy AI governance
     linkedin: https://www.linkedin.com/in/apurba-kundu-3a445a26/
+
+  - name: Justin Shenk
+    role: Berlin Chapter Co-Lead
+    profile_image: images/people-images/justin_shenk.jpeg
+    description: Justin is a software engineer hosting chats, still working on aligning his agents. 
+    linkedin: https://www.linkedin.com/in/justinshenk/
+
+  - name: Rupi Sureshkumar
+    role: New York City Chapter Lead
+    profile_image: images/people-images/rupi_sureshkumar.jpeg
+    description: 
+    linkedin: https://www.linkedin.com/in/rupi-sureshkumar/
 
   - name: Medha Bankhwal
     role: 'SF Chapter Host: Trustworthy AI Futures'
